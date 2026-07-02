@@ -1,8 +1,2 @@
 .vscode/
-datatypes.exe
-modifier.exe
-userInput.exe
-typecasting.exe
-string.exe
-helloWorld.exe
-var-const.exe
+*.exe
