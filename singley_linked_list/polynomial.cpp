@@ -43,7 +43,10 @@ void treverse(){
         temp = head;
         
         while(temp != NULL){
-            if(temp->exp != 0){
+            if(temp->exp == 1){
+                cout<<temp->coff<<"x";
+            }
+            else if(temp->exp != 0){
             cout<<temp->coff<<"X^"<<temp->exp;
             }else{
                 cout<<temp->coff;
